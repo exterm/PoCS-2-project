@@ -4,3 +4,6 @@
 *.fls
 *.synctex.gz
 *.pdf
+*.aux
+*.log
+
