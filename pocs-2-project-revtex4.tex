@@ -57,6 +57,9 @@
 %% for refinements (loaded after xcolor)
 %% \usepackage{showframe}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Custom stuff
+
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -83,7 +86,7 @@
 
 \begin{abstract}
   \protect
-  \input{\filenamebase.abs} 
+  \input{\filenamebase.abs}
 \end{abstract}
 
 \input{\filenamebase.pacs}
@@ -95,7 +98,7 @@
 \input{\filenamebase.body}
 
 %% Methods:
-%% 
+%%
 %% \input{\filenamebase.methods}
 
 \acknowledgments
@@ -115,24 +118,24 @@
 %%
 %% %% optional: switch to single column
 %% \onecolumngrid
-%% 
+%%
 %% \appendix
 %% \section{Auxiliary organ details}
-%% 
+%%
 %% \setcounter{page}{1}
 %% \renewcommand{\thepage}{A\arabic{page}}
 %% \renewcommand{\thefigure}{A\arabic{figure}}
 %% \renewcommand{\thetable}{A\arabic{table}}
 %% \setcounter{figure}{0}
 %% \setcounter{table}{0}
-%% 
+%%
 %% \input{\filenamebase.appendix}
 
 %% %% supplementary
-%% 
+%%
 %% %% %% optional: switch to single column
 %% \onecolumngrid
-%% 
+%%
 %% %% following records the starting page number of the supplementary
 %% %% section in a file called startsupp.txt
 %% %% enables script-based breaking of manuscript and supplementary
@@ -140,19 +143,19 @@
 %% \immediate\openout\tempfile=startsupp.txt
 %% \immediate\write\tempfile{\thepage}
 %% \immediate\closeout\tempfile
-%% 
+%%
 %% \setcounter{page}{1}
 %% \renewcommand{\thepage}{S\arabic{page}}
-%% 
+%%
 %% \renewcommand{\thefigure}{S\arabic{figure}}
 %% \setcounter{figure}{0}
-%% 
+%%
 %% \renewcommand{\thetable}{S\arabic{table}}
 %% \setcounter{table}{0}
-%% 
+%%
 %% \renewcommand{\thesection}{S\arabic{section}}
 %% \setcounter{section}{0}
-%% 
+%%
 %% \input{\filenamebase.supplementary}
 
 \end{document}
