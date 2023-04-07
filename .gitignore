@@ -4,6 +4,7 @@
 *.fls
 *.synctex.gz
 *.pdf
+!figures/**/*.pdf
 *.aux
 *.log
 *.out
