@@ -73,7 +73,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% colors
-\usepackage{xcolor}
+\usepackage[table]{xcolor}
 \newcommand{\tc}[2]{\textcolor{#1}{#2}}
 \newcommand{\tcn}[2]{\color[named]{#1}{#2}}
 \definecolor{olivegreen}{rgb}{0.33333,.41961,0.18431}
@@ -167,7 +167,7 @@
 
 %% blackboard font efforts; not good enough
 %% would need to go before amssym
-%% 
+%%
 %% blackboard font for matrices
 %% https://tex.stackexchange.com/questions/3473/blackboard-bold-variants-for-greek-letters
 %% \usepackage[bbgreekl]{mathbbol}
@@ -216,9 +216,9 @@
 
 \newcommand{\Prob}[1]{{\rm Pr}\left(#1\right)}
 
-%%%%%%%%%%%%%%%%%%   
+%%%%%%%%%%%%%%%%%%
 %% matrices
-%%%%%%%%%%%%%%%%%%   
+%%%%%%%%%%%%%%%%%%
 
 \newcommand{\colvec}[1]{
   \left[
@@ -234,7 +234,7 @@
     \begin{array}{c}
       \mbox{\Large $\leadsto$} \\
       \mbox{#1'} \\
-      \mbox{= #1 -} \\ 
+      \mbox{= #1 -} \\
       \mbox{#2 #3} \\
     \end{array}
   }
@@ -245,7 +245,7 @@
     \scriptsize
     \begin{array}{c}
       \mbox{\Large $\leadsto$} \\
-      \mbox{#1'} 
+      \mbox{#1'}
       \mbox{= #1 -}
       \mbox{#2 #3} \\
     \end{array}
